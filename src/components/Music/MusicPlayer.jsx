@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { FaMusic, FaPause } from "react-icons/fa";
-import music from "../../assets/audio/birthday.OGG";
+import music from "../../assets/audio/birthday.ogg";
 
 function MusicPlayer() {
   const audioRef = useRef(null);
