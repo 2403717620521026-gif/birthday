@@ -2,8 +2,8 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Confetti from "react-confetti";
 import birthdayData from "../../data/birthdayData";
-import FloatingHearts from "../Common/FloatingHearts";
-import StarsBackground from "../Common/StarsBackground";
+import FloatingHearts from "../common/FloatingHearts";
+import StarsBackground from "../common/StarsBackground";
 function GiftBox() {
   const [opened, setOpened] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
